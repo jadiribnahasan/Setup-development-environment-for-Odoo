@@ -31,6 +31,9 @@ Now let's alter password of our newly created user
 - Enter into postgres console
 
   `sudo -u postgres psql`
+  for multiversion postgres -> check running versions
+  `pg_lsclusters`
+  then `psql --cluster <cluster_version>`
   
 - Alter Password
 
